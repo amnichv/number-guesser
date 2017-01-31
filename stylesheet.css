@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+span {
+  color: #ed458b;
+  font-family: 'Open Sans', bold, sans-serif;
+  padding: 40px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #404041;
+  color: #e6e7e8
+  padding: 40px;
+  font-weight: 300;
+}
+
+button {
+  background-color: #D0D2D3;
+  color: #FFFFFF;
+  border: 
+}
