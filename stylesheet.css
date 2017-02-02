@@ -22,7 +22,7 @@ h4 {
   text-align: center;
 }
 
-.GET-guess {
+#get-guess {
   margin-top: 14px;
   color: #404041;
   height: 40px;
@@ -34,13 +34,17 @@ h4 {
 
 button {
   background-color: #929497;
+  border: none;
   color: #ffffff;
   height: 40px;
   width: 94%;
   margin: 3%;
   border-radius: 20px;
-  border: none;
   font-size: 28px;
+}
+
+button:focus {
+  outline: none;
 }
 
 button:disabled {
@@ -69,7 +73,7 @@ button:hover {
 }
 
 @media screen and (min-width: 400px) {
-  .GET-guess {
+  #GET-guess {
     width: 340px;
     margin-left: auto;
     margin-right: auto;
@@ -90,10 +94,12 @@ button:hover {
     margin-right: auto;
     width: 346px;
   }
+
   .reset-button {
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 320px;
   }
+
 }

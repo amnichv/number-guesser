@@ -1,12 +1,9 @@
-// target the input field where the user enters thier guess.
-//get the value of the input field
-//display the value on the screen
 var randomNumber = 0;
 var min = 1;
 var max = 100;
 
 
-var inputField = document.querySelector(".GET-guess");
+var inputField = document.querySelector("#get-guess");
 var guessDisplay = document.querySelector(".guess-display");
 var guessButton = document.querySelector(".guess-button");
 var clearButton = document.querySelector(".clear-button");
@@ -20,18 +17,17 @@ window.onload = function () {
   resetButton.disabled = true;
   clearButton.disabled = true;
   guessButton.disabled = true;
-}
-//Display message too high, low, or boom when conditional runs
-//var = messageToUser document.querySelector(".message-to-user");
+};
+
 function showGuess () {
   var displayValue = inputField.value;
   guessDisplay.innerText = displayValue;
   console.log(displayValue);
-}
+};
 
 function generateRandomNumber(minimum, maximum) {
   return Math.floor(Math.random()*(maximum+1-minimum) + minimum);
-}
+};
 
 guessButton.addEventListener("click", function() {
   console.log("guess received");
@@ -55,17 +51,17 @@ guessButton.addEventListener("click", function() {
   inputField.value = "";
   clearButton.disabled = true;
   guessButton.disabled = true;
-})
-//isNaN built in JS method to test whether argument is not a number
+});
+
 clearButton.addEventListener("click", function() {
   console.log("yay");
   inputField.value = "";
-})
+});
 
 document.addEventListener("keyup", function() {
   clearButton.disabled = false;
   guessButton.disabled = false;
-})
+});
 
 resetButton.addEventListener("click", function() {
   console.log("reset")
@@ -74,14 +70,4 @@ resetButton.addEventListener("click", function() {
   inputField.value = "";
   randomNumber = generateRandomNumber(min, max);
   console.log(randomNumber);
-  //clear input field
-  //clear the p tag with guess
-  //generate a new random number
-})
-
-
-
-//take user input and compare it to random number
-//if user guess is too high...do something
-//if user guess is too low...do something
-//if user guesses correctly...new random number
+});
