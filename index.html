@@ -2,23 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <title>Number Guesser</title>
   </head>
   <body>
-    <h1>
-    <span> Number</span> Guesser
-    </h1>
+    <h1><span> Number</span> Guesser</h1>
     <form action="Guess-get">
       <label for="GET-guess"></label>
-      <input class="GET-guess" type="number" placeholder = "Enter your guess">
+      <input class="GET-guess" placeholder = "Enter your guess">
     </form>
-    <button class="guess-button">Guess</button>
-    <button class="clear-button">Clear</button>
+    <div><button class="guess-button">Guess</button>
+    <button class="clear-button">Clear</button></div>
     <h4>Your last guess was</h4>
-    <p class="guess-display">10</p>
-    <p class="message-to-user" placeholder=" "><p>
+    <p class="guess-display"></p>
+    <p class="message-to-user">&nbsp</p>
     <h4 class=""></h4>
     <button class="reset-button">Reset</button>
   </body>
