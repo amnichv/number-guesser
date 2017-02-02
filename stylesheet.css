@@ -12,10 +12,10 @@ span {
 h1 {
   background-color: #404041;
   color: #e6e7e8;
-  padding: 10px 0 10px 0;
-  width: 100%;
-  text-align: center;
   font-size: 32px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  width: 100%;
 }
 
 h4 {
@@ -23,24 +23,24 @@ h4 {
 }
 
 #get-guess {
-  margin-top: 14px;
   color: #404041;
+  font-size: 28px;
   height: 40px;
-  width: 94%;
   margin-left: 2%;
   margin-right: 2%;
-  font-size: 28px;
+  margin-top: 14px;
+  width: 94%;
 }
 
 button {
   background-color: #929497;
+  border-radius: 20px;
   border: none;
   color: #ffffff;
-  height: 40px;
-  width: 94%;
-  margin: 3%;
-  border-radius: 20px;
   font-size: 28px;
+  height: 40px;
+  margin: 3%;
+  width: 94%;
 }
 
 button:focus {
@@ -57,36 +57,36 @@ button:hover {
 }
 
 .guess-display {
+  color: #eb008b;
+  font-size: 160px;
   height: 200px;
-  width: 250px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
-  color: #eb008b;
-  font-size: 160px;
   text-align: center;
+  width: 250px;
 }
 
 .message-to-user {
-  text-align: center;
   font-size: 16px;
+  text-align: center;
 }
 
 @media screen and (min-width: 400px) {
   #GET-guess {
-    width: 340px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
   }
 
   button {
-    width: 160px;
     display: inline-block;
+    font-size: 16px;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 16px;
+    width: 160px;
   }
 
   div {
@@ -96,9 +96,9 @@ button:hover {
   }
 
   .reset-button {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     width: 320px;
   }
 
