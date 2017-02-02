@@ -18,7 +18,21 @@ h1 {
 }
 
 button {
+  background-color: #ed458b;
+}
+
+button {
   background-color: #D0D2D3;
   color: #FFFFFF;
-  border: 
+  border:
+}
+
+//
+
+.guess-display {
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
